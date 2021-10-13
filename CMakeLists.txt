@@ -4,6 +4,9 @@ project(OpenNotrium)
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_SOURCE_DIR}")
 
+set(CMAKE_CXX_FLAGS "-sUSE_SDL=2 -sUSE_SDL2_MIXER=1 -sUSE_SDL2_IMAGE=1")
+
+                  
 find_package(OpenGL REQUIRED)
 find_package(PhysFS REQUIRED)
 find_package(PhysFS REQUIRED)
